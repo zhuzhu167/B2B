@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<style type="text/css">
+		@import url('../static/css/lz.css');
+
+		.box-site {
+			width: 1100px;
+			background-color: #FFFFFF;
+			height: auto;
+			margin: 0 auto;
+			position: relative;
+			top: 30px;
+
+		}
+
+		.button-list button {
+			background-color: #FFFFFF;
+			color: #000000;
+			width: 137.5px;
+			height: 50px;
+			font-size: 15px;
+			margin-bottom: 5px;
+
+		}
+
+		.button-list button:hover {
+			background-color: #3FD0C3;
+			color: #FFFFFF;
+		}
+
+		.add-site {
+			width: 100%;
+			text-align: center;
+
+		}
+
+		.add-site button {
+			background-color: #FFFFFF;
+			color: #000000;
+			font-size: 15px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+
+		.add-site button:hover {
+			color: #3FD0C3;
+		}
+
+		.add-site input {
+			height: 18px;
+			float: right;
+			padding: 10px;
+			padding-right: 15px;
+		}
+
+		.box-area {
+			width: 1100px;
+			height: auto;
+			background-color: #FFFFFF;
+			margin: 0 auto;
+			position: relative;
+			top: 60px;
+		}
+
+		.current {
+			height: 40px;
+			line-height: 40px;
+			background-color: #3FD0C3;
+			color: #FFFFFF;
+		}
+
+		.current a {
+			margin-left: 20px;
+			font-size: 15px;
+		}
+
+		.current button {
+			font-size: 15px;
+		}
+
+		.current button:hover {
+			color: #000000;
+		}
+
+		.city-list {
+			width: 100%;
+		}
+
+		.city-list button {
+			width: 136.4px;
+			height: 50px;
+			background-color: #FFFFFF;
+			color: #000000;
+			font-size: 15px;
+		}
+
+		.city-list button:hover {
+			background-color: #3FD0C3;
+			color: #FFFFFF;
+		}
+
+		.city-list a {
+			margin: 50px;
+			font-size: 15px;
+		}
+	</style>
+	<body>
+		<div class="head-box">
+			<input type="image" src="../static/img/logo2.png" />
+			<div class="head-login"><a>登录</a></div>
+		</div>
+		<div class="search-box"><input type="text" name="" id="" value="" /><button type="button">搜索</button></div>
+		<div class="container">
+			<div class="box-site">
+				<div class="button-list">
+					<button type="button">友德医</button>
+					<button type="button">友德医</button>
+					<button type="button">友德医</button>
+					<button type="button">友德医</button>
+					<button type="button">友德医</button>
+					<button type="button">友德医</button>
+					<button type="button">友德医</button>
+					<button type="button">友德医</button>
+					<button type="button">友德医</button>
+					<button type="button">友德医</button>
+					<button type="button">友德医</button>
+					<button type="button">友德医</button>
+					<button type="button">友德医</button>
+				</div>
+				<div class="add-site">
+					<button type="button">+ 添加地址</button>
+					<input id="setting" type="image" src="../static/img/setting.png" />
+				</div>
+
+			</div>
+			<div class="box-area">
+				<div class="current">
+					<a>当前位置：</a>
+					<button type="button">广东省 ></button>
+				</div>
+				<div class="city-list">
+					<a>珠海市</a>
+					<button type="button">唐家店</button>
+					<button type="button">南屏店</button>
+					<button type="button">唐家店</button>
+					<button type="button">南屏店</button>
+					<button type="button">唐家店</button>
+					<button type="button">南屏店</button>
+					<button type="button">更多 ></button>
+				</div>
+				<div class="city-list">
+					<a>珠海市</a>
+					<button type="button">唐家店</button>
+					<button type="button">南屏店</button>
+					<button type="button">唐家店</button>
+					<button type="button">南屏店</button>
+					<button type="button">唐家店</button>
+					<button type="button">南屏店</button>
+					<button type="button">更多 ></button>
+				</div>
+				<div class="city-list">
+					<a>珠海市</a>
+					<button type="button">唐家店</button>
+					<button type="button">南屏店</button>
+					<button type="button">唐家店</button>
+					<button type="button">南屏店</button>
+					<button type="button">唐家店</button>
+					<button type="button">南屏店</button>
+					<button type="button">更多 ></button>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var container = document.getElementsByClassName('container');
+			var setting_btn = container.getElementsByTagName('input')[0];
+			var setting_box = document.getElementById('setting-box');
+
+			setting_btn.onclick = function() {
+				setting_box.style.display = 'block';
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,85 @@
+body {
+	margin: 0px;
+	width: 1440px;
+	height: auto;
+	margin: 0 auto;
+	font-size: 0px;
+}
+
+button {
+	outline: 0;
+	background-color: #3FD0C3;
+	color: #FFFFFF;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+button:active {
+	background-color: #2ab4a8;
+}
+
+input {
+	outline: 0;
+}
+
+/* 头部---------------------------------- */
+.head-box {
+	background-color: #3fd0c3;
+	height: 55px;
+	width: 100%;
+}
+
+.head-box input {
+	height: 35px;
+	padding: 10px;
+	padding-left: 30px;
+}
+
+.head-login {
+	float: right;
+	font-size: 15px;
+	color: #ffffff;
+	padding: 17px;
+	padding-right: 30px;
+	cursor: pointer;
+}
+
+/* 搜索栏---------------------------------- */
+.search-box {
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 40%;
+	border: 2px solid #3FD0C3;
+	height: 40px;
+}
+
+.search-box button {
+	width: 20%;
+	height: 40px;
+	border-color: #3FD0C3;
+	font-size: 15px;
+	float: right;
+}
+
+.search-box input {
+	font-size: 20px;
+	width: 75%;
+	border: 0;
+	margin-right: 2px;
+	height: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	background: transparent;
+	float: left;
+
+}
+
+.container {
+	margin: 0 auto;
+	width: 1200px;
+	height: 1000px;
+	background-color: #eef0f1;
+}
